@@ -7,11 +7,11 @@ Summary: Pushing to GitHub with a Personal Account on a Different laptop or acco
 What We Did
 
 Step	Command	Purpose
-1	git config user.name "JaiSharma-10"	Set local (repo-only) Git username
-2	git config user.email "jaiintech@gmail.com"	Set local (repo-only) Git email
-3	git remote set-url origin https://JaiSharma-10:TOKEN@github.com/...	Set remote URL with embedded PAT for authentication
-4	git add . + git commit -m "Initial commit"	Stage and commit files
-5	git push -u origin main	Push to GitHub and set upstream tracking
+1		git config user.name "JaiSharma-10"	Set local (repo-only) Git username
+2		git config user.email "jaiintech@gmail.com"	Set local (repo-only) Git email
+3		git remote set-url origin https://JaiSharma-10:TOKEN@github.com/...	Set remote URL with embedded PAT for authentication
+4		git add . + git commit -m "Initial commit"	Stage and commit files
+5		git push -u origin main	Push to GitHub and set upstream tracking
 
 Concepts Used
 
